@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>CIDemo_SitecoreUpdatePackages</id>
+        <authors>Sebastian Tecsi</authors>
+		<version>1.0.0.0</version>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Sitecore update packages</description>
+    </metadata>
+    <files>
+		<file src="..\Code\CIDemo.TDS.Master\bin\Package_Build\*.update" target="" />
+    </files>
+</package>
