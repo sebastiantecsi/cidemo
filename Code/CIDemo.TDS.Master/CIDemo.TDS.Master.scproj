@@ -60,7 +60,7 @@
     <PackageName>CIDemo.TDS.Master</PackageName>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
-    <PackageExcludeCode>False</PackageExcludeCode>
+    <PackageExcludeCode>True</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
     <PackageAuthor>
     </PackageAuthor>
