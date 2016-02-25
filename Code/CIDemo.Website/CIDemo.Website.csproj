@@ -190,4 +190,21 @@
     <TransformXml Source="Web.config.base" Transform="Web.config.$(Configuration)" Destination="Web.config" />
   </Target-->
   <Import Project="$(SlowCheetahTargets)" Condition="Exists('$(SlowCheetahTargets)')" Label="SlowCheetah" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)*.dll" "$(SolutionDir)..\Website\bin"
+copy "$(TargetDir)*.pdb" "$(SolutionDir)..\Website\bin"
+xcopy "$(ProjectDir)\Views\*.*" "$(SolutionDir)..\Website\Views\" /Y /E
+
+mkdir $(SolutionDir)..\_deploy
+mkdir $(SolutionDir)..\_deploy\bin
+
+copy "$(TargetDir)*.dll" "$(SolutionDir)..\_deploy\bin"
+copy "$(TargetDir)*.pdb" "$(SolutionDir)..\_deploy\bin"
+
+xcopy "$(ProjectDir)\Views\*.*" "$(SolutionDir)..\_deploy\Views\" /Y /E
+
+rem copy "$(ProjectDir)Global.asax" "$(SolutionDir)..\..\Website\"
+rem xcopy "$(ProjectDir)\App_Config\*.*" "$(SolutionDir)..\..\Website\App_Config\" /Y /E
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>

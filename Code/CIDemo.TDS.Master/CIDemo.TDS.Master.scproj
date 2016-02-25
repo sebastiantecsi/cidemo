@@ -55,7 +55,7 @@
     <OutputPath>.\bin\Build\</OutputPath>
     <InstallSitecoreConnector>False</InstallSitecoreConnector>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <DisableFileDeployment>False</DisableFileDeployment>
+    <DisableFileDeployment>True</DisableFileDeployment>
     <SitecoreDeployFolder>..\..\_deploy\</SitecoreDeployFolder>
     <PackageName>CIDemo.TDS.Master</PackageName>
     <GeneratePackage>True</GeneratePackage>
