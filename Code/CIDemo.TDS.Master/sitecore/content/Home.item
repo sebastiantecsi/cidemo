@@ -317,15 +317,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: aff4a913-6a88-4d11-827c-0dd89fbf1de3
+revision: 72c308cf-52ec-4530-93b6-df307a2fc962
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
 name: Title
 key: title
-content-length: 35
+content-length: 37
 
-Goblin Sitecore Experience Platform
+Addition Sitecore Experience Platform
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
@@ -403,14 +403,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-aff4a913-6a88-4d11-827c-0dd89fbf1de3
+72c308cf-52ec-4530-93b6-df307a2fc962
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160113T171144Z
+20160225T143356Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
