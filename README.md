@@ -1,6 +1,6 @@
 # Continuous Integration 
 
-Demo solution for continuous integration and delivery presentation
+Demo solution for continuous delivery and integration presentation
 
 ## Requirements
 
