@@ -1,4 +1,4 @@
-# Continuous Integration 
+# Continuous Delivery demo. 
 
 Demo solution for continuous delivery and integration presentation
 
